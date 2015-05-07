@@ -1,0 +1,125 @@
+/* yangfan */
+/**** Slider *****/
+.index-banner{
+	padding:10px 0;
+}
+.banner-wrap{
+	width: 80%;
+	margin: 0 auto;
+} 
+.wmuSlider {
+	position: relative;
+	overflow: hidden;
+}
+.wmuSlider .wmuSliderWrapper article {
+	position: relative;
+	text-align: center;
+}
+.wmuSlider .wmuSliderWrapper article img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display:block;
+	margin:0 auto;
+}
+.wmuGallery .wmuGalleryImage {
+	position: relative;
+	text-align: center;
+}
+.wmuGallery .wmuGalleryImage img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+/* Default Skin */
+.wmuGallery .wmuGalleryImage {
+	margin-bottom: 10px;
+}
+.wmuSliderPrev, .wmuSliderNext {
+	position: absolute;
+	width: 70px;
+	height: 120px;
+	text-indent: -9999px;
+	background: url(../images/img-sprite.png)no-repeat;
+	top: 27%;
+	z-index: 2;
+	cursor: pointer;
+}
+.wmuSliderPrev {
+	background-position: -20px -21px;
+	left: 40px;
+}
+.wmuSliderNext {
+	background-position: -100px -21px;
+	right: 40px;
+}
+.wmuSliderPagination {
+	z-index: 2;
+	position: absolute;
+	left:83.5%;
+	bottom:80px;
+}
+.wmuSliderPagination li {
+	float: left;
+	margin:0 10px 0 0;
+	list-style-type: none;
+}
+.wmuSliderPagination a {
+	display: block;
+	text-indent: -9999px;
+	width:10px;
+	height:10px;
+	background:#ececec;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+.wmuSliderPagination a.wmuActive {
+	background:#08080b;
+	width:10px;
+	height:10px;
+}
+.slider-left{
+	float: left;
+	width: 70.5%;
+}
+.slider-right{
+	width:28.5%;
+	float:left;
+	text-align: right;
+	margin-top:4%;
+}
+.slider-right h1{
+	color:#000;
+	font-size:4em;
+	text-transform:uppercase;
+	font-weight: 100;
+}
+.slider-right h2{
+	color:#000;
+	font-size:3em;
+	text-transform:uppercase;
+	font-weight: 100;
+}
+.slider-right p{
+	color:#999;
+	font-size:0.85em;
+}
+.btn a {
+	border:1px solid #ddd;
+	color: #000;
+	cursor: pointer;
+	padding: 10px 30px;
+	display: inline-block;
+	font-size:0.85em;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	background: #FFF;
+}
+
+
+img{max-width:100%;}
+.clear{clear:both;}/* clear float */

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>杭州长兴意科技有限公司</title>
+
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/liushuixian.css">
+	<link rel="stylesheet" href="css/main.css">
+   	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+<!-- 顶部的导航栏 -->
+<header style="top:-25px;" role="banner" id="header">
+	<img id="header_img" src="images/logo.png">
+    <div id="daohangButton">
+        <div>
+            <button class="btn btn-default" type="submit" onclick="clickNav(1)">首页</button>
+        </div>
+        <div>
+            <button class="btn btn-success" type="submit" onclick="clickNav(2)">流水线</button>
+        </div>
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+            简介
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation" onclick="clickNav(3)"><a role="menuitem" tabindex="-1" href="#">购买流程</a></li>
+            <li role="presentation" onclick="clickNav(4)"><a role="menuitem" tabindex="-1" href="#">公司简介</a></li>
+            <li role="presentation" onclick="clickNav(5)"><a role="menuitem" tabindex="-1" href="#">合作伙伴</a></li>
+          </ul>
+        </div>
+        <div>
+            <button class="btn btn-default" type="submit" onclick="clickNav(6)">售后</button>
+        </div>
+    </div>
+</header>
+
+<!-- 翻屏 -->
+<ul id="menu">
+	<li data-menuanchor="1Page" class="active"><a href="#1Page">丝印</a></li>
+	<li data-menuanchor="2Page"><a href="#2Page">点胶</a></li>
+	<li data-menuanchor="3Page"><a href="#3Page">贴装</a></li>
+	<li data-menuanchor="4Page"><a href="#4Page">固化</a></li>
+	<li data-menuanchor="5Page"><a href="#5Page">回流焊接</a></li>
+	<li data-menuanchor="6Page"><a href="#6Page">清洗</a></li>
+	<li data-menuanchor="7Page"><a href="#7Page">检测</a></li>
+	<li data-menuanchor="8Page"><a href="#8Page">返修</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+        <img class="text-center" src="images/example1.jpg">
+        <p class="text-center">将焊膏或贴片胶漏印到PCB的焊盘上，为元器件的焊接做准备。所用设备为丝印机（丝网印刷机），位于SMT生产线的最前端。</p>
+	</div>
+	<div class="section" id="section1">
+        <img class="text-center" src="images/example2.jpg">
+        <p class="text-center">将胶水滴到PCB板的固定位置上，其主要作用是将元器件固定到PCB板上。所用设备为点胶机，位于SMT生产线的最前端或检测设备的后面。</p>
+	</div>
+	<div class="section" id="section2">
+        <img class="text-center" src="images/example3.jpg">
+        <p class="text-center">将表面组装元器件准确安装到PCB的固定位置上。所用设备为贴片机，位于SMT生产线中丝印机的后面。</p>
+	</div>
+	<div class="section" id="section3">
+        <img class="text-center" src="images/example4.jpg">
+        <p class="text-center">将贴片胶融化，从而使表面组装元器件与PCB板牢固粘接在一起。所用设备为固化炉，位于SMT生产线中贴片机的后面。</p>
+	</div>
+	<div class="section" id="section4">
+        <img class="text-center" src="images/example5.jpg">
+        <p class="text-center">将焊膏融化，使表面组装元器件与PCB板牢固粘接在一起。所用设备为回流焊炉，位于SMT生产线中贴片机的后面。</p>
+	</div>
+	<div class="section" id="section5">
+        <img class="text-center" src="images/example6.jpg">
+        <p class="text-center">将组装好的PCB板上面的对人体有害的焊接残留物如助焊剂等除去。所用设备为清洗机，位置可以不固定，可以在线，也可不在线。</p>
+	</div>
+	<div class="section" id="section6">
+        <img class="text-center" src="images/example7.jpg">
+        <p class="text-center">对组装好的PCB板进行焊接质量和装配质量的检测。所用设备有放大镜、显微镜、在线测试仪（ICT）、飞针测试仪、自动光学检测（AOI）、X-RAY检测系统、功能测试仪等。位置根据检测的需要，可以配置在生产线合适的地方。</p>
+	</div>
+	<div class="section" id="section7">
+        <img class="text-center" src="images/example8.jpg">
+        <p class="text-center">检测出现故障的PCB板进行返工。所用工具为烙铁、返修工作站等。配置在生产线中任意位置。</p>
+	</div>
+</div>
+
+<!-- 这里显示的就是首页底部的公司申明等信息 -->
+<footer>
+    <p class="text-center">©2015 杭州长兴意科技有限公司 版权归公司所有 如您使用本站服务表示默认同意 京ICP证030173号</p>
+</footer>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- 导航栏具有隐藏和展示的效果在上下滚动网页的时候 -->
+	<script  type="text/javascript"  src="js/headroom.min.js"></script>
+	<script  type="text/javascript"  src="js/jQuery.headroom.min.js"></script>
+
+	<script>
+      //导航栏具有隐藏和展示的效果在上下滚动网页的时候
+	  $("#header").headroom({
+	    "tolerance": 5,
+	    "offset": 205,
+	    "classes": {
+        "initial": "headroom",
+	    "pinned": "slideDown",
+        "unpinned": "slideUp"
+	    }
+	  });
+	</script>
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script>
+
+    <!-- 滚动翻屏 -->
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b', '#4BBFC3', '#7BAABE', '#1bbc9b', '#4BBFC3'],
+				anchors: ['1Page','2Page','3Page','4Page','5Page','6Page','7Page','8Page'],
+				menu: '#menu',
+				loopTop: true,
+				loopBottom: true,
+                keyboardScrolling: true,
+                paddingTop: '0px',
+                resize: false,
+                autoScrolling: true,
+                navigation:true,
+                navigationPosition: 'right',
+                navigationColor: '#7BAABE'
+			});
+		});
+	</script>
+    <!-- 自定义公共的js -->
+	<script  type="text/javascript"  src="js/main.js"></script>
+  </body>
+</html>

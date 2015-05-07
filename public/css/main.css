@@ -1,0 +1,36 @@
+header {
+	width:100%;
+	height:80px;
+    background-color:white;
+    border:0px solid red;
+    z-index:9999;
+}
+header #header_img {
+	position:absolute;
+	margin-left:100px;
+	margin-top:30px;
+}
+header #daohangButton{
+	float:right;
+	margin-right:70px;
+	margin-top:35px;
+    border:0px solid red;
+}
+header #daohangButton div{
+    float:left;
+    margin-right:20px;
+}
+
+.headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+.slideUp {top: -25px;animation-name:slideUp;}
+.slideDown {top: 0;}
+
+footer {
+    height:40px;
+    background-color:#F8F8F8;
+}
+
+footer p{
+    color:#383838;
+    line-height:40px;
+}
