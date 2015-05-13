@@ -1,0 +1,50 @@
+.container {
+    border:0px solid red;
+    margin-left:100px;
+    height: 404px;
+    width:1160px;
+    overflow: auto;
+}
+.container img{
+    float:left;
+    display:inline;
+    margin-right:2px;
+    height:380px;
+    /* border:1px solid cyan; */
+}
+
+.img-rounded {
+    float:left;
+    display:inline;
+    margin-left:20px;
+}
+
+.everyProduction {
+    position:relative;
+    margin-bottom:10px;
+}
+
+.design {
+    height: 504px;
+}
+.design img {
+    height:500px;
+    margin-right:20px;
+}
+
+h3 {
+    width:0px;
+    word-wrap:break-word;
+    position: absolute;
+    top:70px;
+    left:40px;
+}
+
+
+#pinn {
+    position:absolute;
+    top:200px;
+    right:70px;
+    height:133px;
+    width:74px;
+}

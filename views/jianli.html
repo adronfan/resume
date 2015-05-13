@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>杨帆简历</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="/" title="Contact"><i class="icon-home"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#skill" title="Skill"><i class="icon-tags"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-book"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-laptop"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#glass" title="Glass"><i class="icon-trophy"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#like" title="like"><i class="icon-smile"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>杨帆Adron</h1>
+					<h3>Node.js | adronfan@126.com</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
+
+	<!--SKILLS DESCRIPTION -->
+	<section id="skill" name="skill" style="position:relative;top:-62px"></section>
+	<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>技能评价</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>Node.js/Javascript 掌握</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="ios" height="130" width="130"></canvas>
+						<p>iOS 很熟练</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("ios").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="JAVA" height="130" width="130"></canvas>
+						<p>JAVA 熟练(不在使用)</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#1abc9c"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("JAVA").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML5/CSS3 熟练</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="linux" height="130" width="130"></canvas>
+						<p>Linux/Centos-Ubuntu 掌握</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("linux").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="sql" height="130" width="130"></canvas>
+						<p>MySql/MongoDB 熟练</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("sql").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+
+	<section id="about" name="about" style="position:relative;top:-63px"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>关于自己</h5>
+				</div>
+				<div class="col-lg-6">
+                    <p>1年Node.js，2年iOS，2年JAVA，爱技术，懂带队，前后台，会设计，爱作图</p>
+                    <p style="color:red;"><b>按照自己职业发展的路线，我想找一个职位是Node.js，地点在杭州的工作。</b></p>
+                    <p>宣言：<br>我嘛，工作时间不长，没有5年工作经验那么优秀<br>但是让每个人都害怕的，其实是那些，每天都有很大进步的人！<br>公司和个人相互的合适，是多么难得的事情！</p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="http://blog.csdn.net/yangfanacc" target="_blank"><i class="icon-link"></i></a> <sm>CSDN技术博客</sm></p>
+					<p><a href="https://github.com/adronfan" target="_blank"><i class="icon-github"></i></a> <sm>Github</sm></p>
+					<p><a href="http://123.56.44.245:2369" target="_blank"><i class="icon-star"></i></a> <sm>个人博客</sm></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+
+	<section id="resume" name="resume" style="position:relative;top:-63px"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>教育</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>网络工程</t><br/>
+						安徽农业大学<br/>
+						<i>4年 本科</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2010-07入校</sm><br/>
+					<imp><sm>已经毕业</sm></imp>
+					</p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<section id="work" name="work" style="position:relative;top:-63px"></section>
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>工作</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>iOS 软件工程师</t><br/>
+                        上海果航网络科技有限公司<br/>
+						 研发部 项目开发 带团队<br/>
+					</p>
+					<p><more>主要负责公司iOS客户端的研发和团队整体能力的提高
+                    </more></p>
+                    <p><more>工作职责：<br>负责产品的构思，技术实现，团队合作，代码编写及后台实现（Nodejs）<br>
+                    主要业绩：<br>
+					产品种类多，上架AppStore项目有娱乐，图书，生活，社交，工具等数个板块<br>
+					有“怀孕周期速查”，“微信表情制作器”，“天天爱拼图Pro”等大小软件60余个<br>
+					带队：<br>
+					团队成员技术水平大幅度提高<br>
+					半年内由开始的熟悉开发到月薪过万<br>
+                    </more></p>
+
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2014-01 -- 至今</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>iOS 开发</t><br/>
+                        无锡艾佛尔科技有限公司<br/>
+						 研发部 项目开发<br/>
+					<p><more>公司为外包，接收各种类型的iOS客户端业务。
+                    </more></p>
+                    <p><more>工作职责：<br>负责产品技术的实现，内部代码的整理和重用<br>
+                    主要业绩：<br>
+					公司接外包数量增加，产品开发周期加快，客户总体满意度大大提高<br>
+                    </more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>2013-10 -- 2014-01</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<section id="glass" name="glass" style="position:relative;top:-63px"></section>
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>奖项</h5>
+				</div>
+				<div class="col-lg-6">
+                    <p><t>{ 大学期间 }</t><br/></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>蓝桥杯安徽赛区三等奖</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>合财杯安徽省软件设计三等奖</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>神农杯创业大赛学校三等奖</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>大学生职业生涯规划学院三等奖</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>安徽农业大学先进个人</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>创业培训资格证书</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>优秀团员</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>计算机等级考试三级网络技术</t></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+	
+
+	<section id="like" name="like" style="position:relative;top:-63px"></section>
+	<!--AWARDS DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>爱好</h5>
+				</div>
+				<div class="col-lg-6">
+                    <p><t>就是想简单的生活</t><br/></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>{ 体育 } 跑步，单双杠，篮球</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>{ 娱乐 } 吉他，魔兽：(虐成狗</t></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>{ 生活 } 写日记，摄影，翻墙了解国外世界，爱电子数码，讲究生活质量</t></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+	</div><!--/.container -->
+
+
+	<section id="contact" name="contact" style="position:relative;top:-63px"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>联系我</h5>
+				</div>
+				<div class="col-lg-6">
+                    <p><i class="icon-envelope"></i><t>常用邮箱</t><br/>
+						adronfan@126.com <br/>
+					</p>
+                    <p><i class=" icon-map-marker"></i><t>工作地点</t><br/>
+						杭州<br/>
+					</p>
+                    <p><i class="icon-phone"></i><t>常用电话</t><br/>
+						15555110789 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>社交</sm></p>
+					<p>
+						<a href="https://github.com/adronfan" target="_blank"><i class="icon-github"></i></a>
+						<a href="http://weibo.com/u/3950247268" target="_blank"><i class="icon-pinterest"></i></a>
+						<a href="https://twitter.com/AdronFan" target="_blank"><i class="icon-twitter"></i></a>
+						<a href="https://www.facebook.com/adronfan" target="_blank"><i class="icon-facebook"></i></a>
+						<a href="http://cn.linkedin.com/in/adronfan" target="_blank"><i class="icon-linkedin"></i></a>
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="http://123.56.44.245:2369" target="_blank">Adron</a></p>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>

@@ -52,6 +52,20 @@ header #daohangButton div {
     margin-top: 120px;
 }
 
+.index-banner h1,h2,h3,h4,h5,h6 {
+    color:red;
+}
+
+.index-banner .slider-right a:link{
+    color:red;
+}
+.index-banner .slider-right a:visited{
+    color:red;
+}
+.index-banner .slider-right a:hover{
+    color:blue;
+}
+
 .container .row .col-lg-2 {
     border: 0px solid red;
     margin: 0px;
@@ -72,12 +86,12 @@ header #daohangButton div {
     margin: 0px
 }
 
-footer {
-    height: 40px;
-    background-color: #F8F8F8;
+#myself {
+    margin-top:1000px;
+    width:95%;
+    margin:auto;
 }
 
-footer p {
-    color: #383838;
-    line-height: 40px;
+#myself img {
+    width:100%;
 }

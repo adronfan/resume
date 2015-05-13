@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>杨帆简历</title>
+
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/xiangmu.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/zoom.css">
+
+    <style>
+    </style>
+</head>
+<body>
+<!-- 顶部的导航栏 -->
+<header role="banner" id="header">
+	<img id="header_img" src="images/logo.png">
+    <div id="daohangButton">
+        <div>
+            <button class="btn btn-default" type="submit" onclick="clickNav(1)">主页</button>
+        </div>
+        <div>
+            <button class="btn btn-default" type="submit" onclick="clickNav(2)">简历</button>
+        </div>
+        <div>
+            <button class="btn btn-success" type="submit" onclick="clickNav(3)">项目</button>
+        </div>
+        <div>
+            <button class="btn btn-default" type="submit" onclick="clickNav(4)">简历下载</button>
+        </div>
+    </div>
+</header>
+
+
+<div style="margin-top:100px;width:100%;height:1px;background-color:white;"></div>
+
+
+<section id="nodejs" name="nodejs" style="position:relative;top:-75px"></section>
+<div class="page-header">
+  <h1>Node.js <small>自己弄了Node.js一年时间在上班空余的时候，很喜欢Javascript</small></h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body" style="color:red;">
+      因为转行前做JSP，所以对后台一块比较了解。<br>
+      目前可以很熟练的使用Linux服务器（本人有阿里云CentOS服务器）。<br>
+      本身对网络这一块如HTTP和DNS等比较了解，这也是我大学主修的课程。<br>
+      所以我想找一个处理后台业务的工作。<br>
+      对于Nodejs，很多第三方服务性框架如express、reap、crypto等都可以正常及熟练使用。
+  </div>
+</div>
+
+<div class="list-group">
+  <a target="_blank" href="http://123.56.44.245:2369" class="list-group-item">个人博客(基于Ghost)</a>
+  <a target="_blank" href="http://123.56.44.245:3459" class="list-group-item">个人的代办事项(简单实用)</a>
+  <a target="_blank" href="http://www.smtfree.cf" class="list-group-item">为朋友做的一个简化版的SMT公司网站</a>
+  <a target="_blank" href="http://123.56.44.245:2048" class="list-group-item">一个“点名表白”的客户端页面(模仿苹果的原生界面)</a>
+  <a target="_blank" href="http://pan.baidu.com/share/home?uk=2769662058&view=share#category/type=0" class="list-group-item">网络图片抓包，Nodejs实现，限制网络并发抓取图片10W+张</a>
+  <a target="_blank" href="http://www.posing.cf" class="list-group-item">一分钟学会拍照，200个自拍不重样</a>
+  <a target="_blank" href="http://123.56.44.245:62713/" class="list-group-item">总有人说这个是黄色，我觉得这是生活，图片来自豆瓣</a>
+</div>
+
+
+<div class="page-header">
+  <h1>iOS <small>2年工作经验咯</small></h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body" style="color:red;">
+      进入iOS开发行业近两年了，由于公司的项目特殊性，所以没有接触到大型的项目基础。<br>
+      苹果开发的技能已经可以满足大多数情况下的需求，个人学习能力很高，对于团队合作情有独钟。<br>
+      下面的项目绝大部分为个人作品，部分项目是工作后期带领团队开发。<br>
+      鉴于界面内容太多，所以部分作品不再展示。<br>
+  </div>
+</div>
+
+<section id="shangjia" name="shangjia" style="position:relative;top:-75px"></section>
+<div class="alert alert-info" role="alert">已经上架</div>
+ <% include shangjia.html %>
+
+<section id="weixuyue" name="weixuyue" style="position:relative;top:-75px"></section>
+<div class="alert alert-warning" role="alert">未续约</div>
+ <% include weixuyue.html %>
+
+<section id="weishangjia" name="weishangjia" style="position:relative;top:-75px"></section>
+<div class="alert alert-danger" role="alert">种种原因没有上架</div>
+ <% include weishangjia.html %>
+
+<section id="design" name="design" style="position:relative;top:-75px"></section>
+<div class="page-header">
+  <h1>PhotoShop/Sketch <small>略懂设计咯，会修图才可以和射鸡师们很好的相处嘛</small></h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body" style="color:red;">
+      比较喜欢拍照，喜欢那些设计的漂亮的物品。<br>
+      PS是我在大学的时候学习并使用到现在。<br>
+      由于公司开始没有设计师，所以产品的界面是我个人设计的。<br>
+      对于设计我显然离专业都还是很远，但是我很喜欢。<br>
+      公司有了设计师之后，我才发现，只有自己会使用Photoshop或sketch，才能和射鸡师相处的更加融洽。<br>
+  </div>
+</div>
+
+ <% include design.html %>
+
+<section id="java" name="java" style="position:relative;top:-75px"></section>
+<div class="page-header">
+  <h1>JAVA <small>这个方向的项目已经不再了，硬盘坏了一次，哭瞎卫生间中...</small></h1>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body" style="color:red;">
+      对于Java我心里其实是愧疚的。<br>
+      已经做了2年的JAVA开发后，我发现我应该赶上移动互联网的末班车。<br>
+      当时决然的放弃了JAVA进入了iOS开发的行列。<br>
+      但是我感谢Java基础给我带来的便利，鉴于Java的基础，我用了3天时间就学习完iOS的基础知识并开发正式开发。<br>
+      也使得我后面的Nodejs学习及Linux服务器管理学习的进步很快。
+  </div>
+</div>
+
+
+<div id="pinn">
+    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+      <button type="button" class="btn btn-default" onclick="clickButton(1)">Node.js</button>
+      <div class="btn-group" role="group">
+        <button id="btnGroupVerticalDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+          iOS
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop1">
+          <li><a href="#shangjia">已上架</a></li>
+          <li><a href="#weixuyue">未续约</a></li>
+          <li><a href="#weishangjia">未上架</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-default" onclick="clickButton(2)">设计</button>
+      <button type="button" class="btn btn-default" onclick="clickButton(3)">JAVA</button>
+    </div>
+</div>
+
+<script>
+function clickButton(whichNav) {
+    if (whichNav == 1) {
+        window.location.href="#nodejs";
+    } else if (whichNav == 2) {
+        window.location.href="#design";
+    } else if (whichNav == 3) {
+        window.location.href="#java";
+    }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- 导航栏具有隐藏和展示的效果在上下滚动网页的时候 -->
+	<script  type="text/javascript"  src="js/headroom.min.js"></script>
+	<script  type="text/javascript"  src="js/jQuery.headroom.min.js"></script>
+
+	<script>
+      //导航栏具有隐藏和展示的效果在上下滚动网页的时候
+	  $("#header").headroom({
+	    "tolerance": 5,
+	    "offset": 5,
+	    "classes": {
+        "initial": "headroom",
+	    "pinned": "slideDown",
+        "unpinned": "slideUp"
+	    }
+	  });
+	</script>
+
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script>
+
+    <!-- 自定义公共的js -->
+	<script  type="text/javascript"  src="js/main.js"></script>
+
+    <!-- 图片的懒加载 -->
+    <script src="js/amazeui.lazyload.min.js"></script>
+    <script>
+        $("img.lazy").lazyload();
+        $('img.lazy').lazyload({
+            effect : 'fadeIn',
+            container: $('.container')
+        });
+    </script>
+
+
+    <!-- 图片放大器 -->
+    <script src="js/zoom.js"></script>
+    <script src="js/transition.js"></script>
+
+    <!-- 固定元素 -->
+    <script src="js/jquery.pin.js"></script>
+    <script>
+        $("#pinn").pin({padding:{top:100}})
+    </script>
+  </body>
+</html>

@@ -4,17 +4,17 @@ var router = express.Router();
 /* GET home page. */
 // 主页-首页
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', {});
 });
 
 // 流水线
-router.get('/liushuixian', function(req, res, next) {
-  res.render('liushuixian', {});
+router.get('/jianli', function(req, res, next) {
+  res.render('jianli', {});
 });
 
 // 购买流程
-router.get('/goumailiucheng', function(req, res, next) {
-  res.render('goumailiucheng', {});
+router.get('/xiangmu', function(req, res, next) {
+  res.render('xiangmu', {});
 });
 
 // 购买流程
