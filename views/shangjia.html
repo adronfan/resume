@@ -8,11 +8,11 @@
 
 <% for(var i = 0; i < allData.name.length; i++) { %>
 <div class="everyProduction">
-    <img class="lazy img-rounded" data-action="zoom" data-original="images/shangjia/<%= allData.logo[i] %>.png" width="80" height="80">
+    <img class="lazy img-rounded" data-action="zoom" data-original="images/shangjia/<%= allData.logo[i] %>.jpg" width="80" height="80">
     <div class="container row">
         <% var imgArr = allData.img[i]; %>
         <% for(var j = 0; j < imgArr.length; j++) {  %>
-          <img class="lazy am-img-thumbnail img-thumbnail" data-action="zoom" data-original="images/shangjia/<%= imgArr[j] %>.jpeg"
+          <img class="lazy am-img-thumbnail img-thumbnail" data-action="zoom" data-original="images/shangjia/<%= imgArr[j] %>.jpg"
               alt="a">
         <% } %>
     </div>
