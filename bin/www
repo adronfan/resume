@@ -14,7 +14,7 @@ var http = require('http');
  */
 
 // 设置端口号
-var port = normalizePort(process.env.PORT || '8866');
+var port = normalizePort(process.env.PORT || '3695');
 app.set('port', port);
 
 /**
